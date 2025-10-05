@@ -1,5 +1,5 @@
 .vscode/
 .idea/
-data/
+data/*.xlsx
 command.*
 .git-credentials
