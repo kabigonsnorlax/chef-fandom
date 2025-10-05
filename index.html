@@ -23,34 +23,69 @@
         $(document).ready(function() {
             // Load JSON data
             $.getJSON('data.json', function(data) {
-                const cardsContainer = $('#chef-cards');
+                const container = $('#chef-cards');
 
                 // Clear any existing content
-                cardsContainer.empty();
+                container.empty();
 
-                // Create cards for each chef
+                // Group by Group and sort groups by GroupOrder
+                const groupedData = {};
                 data.forEach(function(chef) {
-                    const cardHtml = `
-                        <div class="col-12 col-lg-4">
-                            <div class="card h-100 shadow-sm">
-                                <div class="card-header bg-primary text-white">
-                                    <h5 class="card-title mb-0">${chef.Group}</h5>
-                                </div>
-                                <div class="card-body text-center">
-                                    <h4 class="card-text mb-3">${chef.FullName}</h4>
-                                    <p class="card-text">
-                                        <a href="${chef.URL}" target="_blank" class="btn btn-outline-primary btn-sm mb-3">
-                                            ${chef.Kingdom}
-                                        </a>
-                                    </p>
-                                    <a href="${chef.URL}" target="_blank">
-                                        <img src="./images/${chef.Name}.jpg" class="img-fluid rounded" alt="${chef.FullName}" style="max-height: 200px;">
-                                    </a>
-                                </div>
-                            </div>
+                    if (!groupedData[chef.Group]) {
+                        groupedData[chef.Group] = {
+                            groupOrder: chef.GroupOrder,
+                            chefs: []
+                        };
+                    }
+                    groupedData[chef.Group].chefs.push(chef);
+                });
+
+                // Sort groups by GroupOrder
+                const sortedGroups = Object.keys(groupedData).sort(function(a, b) {
+                    return groupedData[a].groupOrder - groupedData[b].groupOrder;
+                });
+
+                // Process each group
+                sortedGroups.forEach(function(groupName) {
+                    const groupData = groupedData[groupName];
+
+                    // Sort chefs within group by NameOrder then Name
+                    groupData.chefs.sort(function(a, b) {
+                        if (a.NameOrder !== b.NameOrder) {
+                            return a.NameOrder - b.NameOrder;
+                        }
+                        return a.Name.localeCompare(b.Name);
+                    });
+
+                    // Create group header
+                    const groupHtml = `
+                        <div class="col-12">
+                            <h2 class="mt-5 mb-4 text-center">${groupName}</h2>
                         </div>
                     `;
-                    cardsContainer.append(cardHtml);
+                    container.append(groupHtml);
+
+                    // Create cards for each chef in this group
+                    groupData.chefs.forEach(function(chef) {
+                        const cardHtml = `
+                            <div class="col-12 col-lg-4">
+                                <div class="card h-100 shadow-sm">
+                                    <div class="card-body text-center">
+                                        <h4 class="card-text mb-3">${chef.FullName}</h4>
+                                        <p class="card-text">
+                                            <a href="${chef.URL}" target="_blank" class="btn btn-outline-primary btn-sm mb-3">
+                                                ${chef.Kingdom}
+                                            </a>
+                                        </p>
+                                        <a href="${chef.URL}" target="_blank">
+                                            <img src="./images/${chef.Name}.jpg" class="img-fluid rounded" alt="${chef.FullName}" style="max-height: 200px;">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        `;
+                        container.append(cardHtml);
+                    });
                 });
             }).fail(function() {
                 console.error('Error loading data.json');
