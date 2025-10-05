@@ -13,7 +13,8 @@
 </head>
 <body>
     <div class="container-fluid py-4">
-        <h1 class="text-center mb-4">Chef Fandom</h1>
+        <h1 class="text-center mb-2">Chef Fandom</h1>
+        <h3 class="text-center text-muted mb-4">เฉพาะกลุ่มที่ยัง Active และมีเชฟตัวจริงมาแล้วเท่านั้น</h3>
         <div id="chef-cards" class="row g-4">
             <!-- Cards will be loaded here -->
         </div>
@@ -60,7 +61,9 @@
                     // Create group header
                     const groupHtml = `
                         <div class="col-12">
-                            <h2 class="mt-5 mb-4 text-center">${groupName}</h2>
+                            <div class="bg-primary text-white text-center py-3 my-4 rounded">
+                                <h2 class="mb-0">${groupName}</h2>
+                            </div>
                         </div>
                     `;
                     container.append(groupHtml);
