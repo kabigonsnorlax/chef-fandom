@@ -153,6 +153,15 @@
     "NameOrder": 136
   },
   {
+    "GroupOrder": 1,
+    "Group": "Hell's Kitchen Thailand",
+    "Name": "tenrum",
+    "FullName": "เชฟลูกจรรย์-เฟน-ใบตอง",
+    "Kingdom": "Tenrumtumkrua Fanclub",
+    "URL": "https://line.me/ti/g2/-oHsBkca-69z5IcXuzTzsQNG2STcs0gLRHBprQ",
+    "NameOrder": 137
+  },
+  {
     "GroupOrder": 2,
     "Group": "Top Chef Thailand",
     "Name": "jareuk",
@@ -160,6 +169,15 @@
     "Kingdom": "FC CHEF JAREUK",
     "URL": "https://line.me/ti/g2/7yWE_EkMLoDQ7lkNGWqqUOmqVEOfpV-GANfeXQ",
     "NameOrder": 201
+  },
+  {
+    "GroupOrder": 2,
+    "Group": "Top Chef Thailand",
+    "Name": "tien",
+    "FullName": "เชฟเทียน",
+    "Kingdom": "บ้านคนรักเชฟเทียน",
+    "URL": "https://line.me/ti/g2/v1eZjWu1yTMYRS7BuzMFednEEM0dh0KKyiDkNQ",
+    "NameOrder": 202
   },
   {
     "GroupOrder": 3,
@@ -173,11 +191,20 @@
   {
     "GroupOrder": 3,
     "Group": "MasterChef Thailand",
+    "Name": "paope",
+    "FullName": "เชฟเป่าเป้",
+    "Kingdom": "#TeampaopeStyle",
+    "URL": "https://line.me/ti/g2/D9RVibkFspT3cnkwEzyYPPPLWRXkDNxrDzgJ4g",
+    "NameOrder": 302
+  },
+  {
+    "GroupOrder": 3,
+    "Group": "MasterChef Thailand",
     "Name": "toey",
     "FullName": "เชฟเตย (สหรัฐ)",
     "Kingdom": "เชฟเตยตุ้ยนุ้ย",
     "URL": "https://line.me/ti/g2/ukilg9ojjf20xzcJdtpk8kpmTdmhkJ7PyFN1lw",
-    "NameOrder": 302
+    "NameOrder": 303
   },
   {
     "GroupOrder": 3,
@@ -186,7 +213,7 @@
     "FullName": "เชฟมิเชล",
     "Kingdom": "MICHEL FAM",
     "URL": "https://line.me/ti/g2/PdUvyD4dTB_C4fsdxRGucJexA28YDQZ_oAQg5A",
-    "NameOrder": 303
+    "NameOrder": 304
   },
   {
     "GroupOrder": 3,
@@ -195,7 +222,7 @@
     "FullName": "เชฟอาร์ต (ศรัณย์)",
     "Kingdom": "P'ARTH FAM",
     "URL": "https://line.me/ti/g2/u7b3qeUYrGBM2NoNWJ-nW9OIJBzPlFTnFEk7ng",
-    "NameOrder": 304
+    "NameOrder": 305
   },
   {
     "GroupOrder": 4,
