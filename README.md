@@ -1,16 +1,16 @@
 # 🍳 Kabigon's Chef Fandom
 
-Web application for tracking Thai cooking show from Heliconia H Group's Chef fandoms and their LINE Openchat Communities.
+A **web application** dedicated to tracking and visualizing the fandom communities of Thai chefs from **Heliconia H Group**’s competitive cooking shows and their **LINE Openchat** fan communities.
 
 ## 🌟 Overview
 
-This project showcases various Thai cooking competition shows and their participating chefs, providing easy access to their official fandoms and Openchat communities on LINE. The application displays chef information, fan counts, and direct links to join their respective groups.
+This application focuses on **chefs with established fandoms**, providing an organized and interactive way to explore fanbase trends across Thailand's TV show chefs competitions.
 
 ## 📊 Features
 
-- **Multi-Show Support**: Covers major Thai cooking competitions including Hell's Kitchen Thailand, Top Chef Thailand, MasterChef Thailand, and The Restaurant War
-- **Organized Display**: Chefs / Competitors from Heliconia H Group are grouped by their respective cooking shows and sorted appropriately
-- **Direct Access**: One-click access to join chef fandoms via LINE Openchat links
+- **Multi-Show Coverage**: Supports all major Thai cooking competitions — *Hell’s Kitchen Thailand*, *Top Chef Thailand*, *MasterChef Thailand*, and *The Restaurant War*
+- **Structured Presentation**: Displays chefs and competitors by show, sorted by relevance and display order
+- **One-Click Access**: Instantly join fandoms via official LINE Openchat links
 
 ## 🛠️ Tech Stack
 
@@ -18,7 +18,7 @@ This project showcases various Thai cooking competition shows and their particip
 - **UI Framework**: Bootstrap 5
 - **Data Format**: JSON
 - **Hosting**: GitHub Pages
-
+  
 ## 📁 Project Structure
 
 ```
@@ -28,8 +28,8 @@ chef-fandom/
 ├── README.md           # Project documentation
 ├── count.py            # Fan count extraction utilities
 └── images/             # Chef profile images
-    ├── heli.jpg
-    ├── pan.jpg
+    ├── x.jpg
+    ├── y.jpg
     └── ... (other chef images)
 ```
 ## 📊 Data Management
