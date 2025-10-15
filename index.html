@@ -32,6 +32,11 @@
             $.getJSON('data.json', function(data) {
                 const container = $('#chef-cards');
 
+                // Sorting configuration
+                const sortColumn = "EstimateFans"; // "NameOrder" or "EstimateFans"
+                const sortBy = "DESC"; // "ASC" or "DESC"
+                const sortKey = sortBy === "DESC" ? -1 : 1;
+
                 // Clear any existing content
                 container.empty();
 
@@ -56,12 +61,11 @@
                 sortedGroups.forEach(function(groupName) {
                     const groupData = groupedData[groupName];
 
-                    // Sort chefs within group by NameOrder then Name
+                    // Sort chefs within group by sortColumn
                     groupData.chefs.sort(function(a, b) {
-                        if (a.NameOrder !== b.NameOrder) {
-                            return a.NameOrder - b.NameOrder;
-                        }
-                        return a.Name.localeCompare(b.Name);
+                        const aVal = a[sortColumn];
+                        const bVal = b[sortColumn];
+                        return (aVal - bVal) * sortKey;
                     });
 
                     // Create group header
