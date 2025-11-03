@@ -7,7 +7,7 @@
     "Kingdom": "กลุ่มหลัก (คุยทุกรายการ)",
     "URL": "https://line.me/ti/g2/1DSD4rvjgzwpG9g2X604Z7B3SkqbX1s3InKy0Q",
     "NameOrder": 10,
-    "EstimateFans": 501
+    "EstimateFans": 502
   },
   {
     "GroupOrder": 10,
@@ -87,7 +87,7 @@
     "Kingdom": "Chef Nat LadyButcher",
     "URL": "https://line.me/ti/g2/xEB5sD4Fqlmg6KU3fjQaRrge8dEwJw9aUkA9Hg",
     "NameOrder": 108,
-    "EstimateFans": 159
+    "EstimateFans": 158
   },
   {
     "GroupOrder": 10,
@@ -114,10 +114,20 @@
     "Group": "Hell's Kitchen Thailand SS2",
     "Name": "tue",
     "FullName": "เชฟตู่",
-    "Kingdom": "บ้านแฟนคลับเชฟตู่ นิ่งๆแต่โหด",
+    "Kingdom": "Chef Tue Fanclub",
     "URL": "https://line.me/ti/g2/hcLIN6RQu6CMaoL9cd-2SefzJ_CnfdRHkIYRcA",
     "NameOrder": 111,
     "EstimateFans": 33
+  },
+  {
+    "GroupOrder": 10,
+    "Group": "Hell's Kitchen Thailand SS2",
+    "Name": "mj",
+    "FullName": "เชฟเอ็มเจ",
+    "Kingdom": "แฟนคลับเชฟเอ็มเจ SUPPORT",
+    "URL": "https://line.me/ti/g2/t7Sw9_4FSuQ2Ih18YJEWpjEGN2y2ABf7aspPNg",
+    "NameOrder": 112,
+    "EstimateFans": 8
   },
   {
     "GroupOrder": 11,
