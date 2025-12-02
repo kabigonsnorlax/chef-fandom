@@ -1,6 +1,10 @@
 .vscode/
 .idea/
+_backup/
+google/
+google/*
 data/*.xlsx
+data/*.csv
 command.*
 command_*.*
 .git-credentials
