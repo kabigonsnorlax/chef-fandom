@@ -87,7 +87,7 @@
     "Kingdom": "Chef Nat LadyButcher",
     "URL": "https://line.me/ti/g2/xEB5sD4Fqlmg6KU3fjQaRrge8dEwJw9aUkA9Hg",
     "NameOrder": 108,
-    "EstimateFans": 140
+    "EstimateFans": 139
   },
   {
     "GroupOrder": 10,
@@ -177,7 +177,7 @@
     "Kingdom": "FC Chef Keng Chef Jib",
     "URL": "https://line.me/ti/g2/zcmbuMNqpevYZyBX7kcXC8ZUau9wOa2Hr8MKbw",
     "NameOrder": 133,
-    "EstimateFans": 215
+    "EstimateFans": 214
   },
   {
     "GroupOrder": 11,
@@ -290,14 +290,54 @@
     "EstimateFans": 35
   },
   {
-    "GroupOrder": 30,
-    "Group": "MasterChef Thailand",
+    "GroupOrder": 5,
+    "Group": "MasterChef Thailand SS7",
     "Name": "mint",
     "FullName": "มิ้น มาสเตอร์เชฟ",
-    "Kingdom": "Mint The Unicorn Chef Fandom",
+    "Kingdom": "🦄 Mint The Unicorn Chef Fandom",
     "URL": "https://line.me/ti/g2/0MldiD0714NqUzMio_2-Tq6PqrZBarNuyt54oA",
-    "NameOrder": 306,
-    "EstimateFans": 88
+    "NameOrder": 350,
+    "EstimateFans": 92
+  },
+  {
+    "GroupOrder": 5,
+    "Group": "MasterChef Thailand SS7",
+    "Name": "mi",
+    "FullName": "มี่ มาสเตอร์เชฟ",
+    "Kingdom": "ด้อมพี่บ่าวติดหนวด Chef Mi Fandom 🧔🏾‍♂️",
+    "URL": "https://line.me/ti/g2/B7o7tYFUR9mVc_USYEzD9HlJF8oUsmZEobpyFQ",
+    "NameOrder": 351,
+    "EstimateFans": 37
+  },
+  {
+    "GroupOrder": 5,
+    "Group": "MasterChef Thailand SS7",
+    "Name": "bella",
+    "FullName": "เบลล่า มาสเตอร์เชฟ",
+    "Kingdom": "💜 Bella Survive Fandom",
+    "URL": "https://line.me/ti/g2/KNbMW5Kw-RFt4tvAa9Ha25H_qR2180oUFUZHrw",
+    "NameOrder": 352,
+    "EstimateFans": 40
+  },
+  {
+    "GroupOrder": 5,
+    "Group": "MasterChef Thailand SS7",
+    "Name": "ploy-mc7",
+    "FullName": "พลอย (พลอยไพลิน)",
+    "Kingdom": "พลอย ~ เมนูนี้ทำไง 👩‍🍳",
+    "URL": "https://line.me/ti/g2/sbDRoJLKn02Ow2iQimAceBFKbuoY3ZokSwkRqA?",
+    "NameOrder": 353,
+    "EstimateFans": 8
+  },
+  {
+    "GroupOrder": 5,
+    "Group": "MasterChef Thailand SS7",
+    "Name": "thiti",
+    "FullName": "ธิติ มาสเตอร์เชฟ",
+    "Kingdom": "FC PThiti",
+    "URL": "https://line.me/ti/g2/d1ZS6QxoyqnFB8ASGUEd_F40fIqCGh48QCLQJQ",
+    "NameOrder": 354,
+    "EstimateFans": 1
   },
   {
     "GroupOrder": 40,
